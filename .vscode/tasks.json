@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "browser-install",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"label": "npm: browser-install",
+			"detail": "npx playwright install chromium",
+			"isBackground": true
+		}
+	]
+}
